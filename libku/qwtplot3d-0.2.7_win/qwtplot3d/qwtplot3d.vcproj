@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="qwtplot3d"
+	ProjectGUID="{EAE8FE43-D11B-37C4-9909-BFAA8238BD3E}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtOpenGL&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include&quot;,&quot;include&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\ActiveQt&quot;,&quot;tmp&quot;,c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="tmp\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QWT3D_DLL,QWT3D_MAKEDLL,QT_THREAD_SUPPORT,QT_DLL,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="glu32.lib opengl32.lib gdi32.lib user32.lib c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib\QtOpenGLd4.lib c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib\QtGuid4.lib c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="lib\qwtplot3d.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QWT3D_DLL,QWT3D_MAKEDLL,QT_THREAD_SUPPORT,QT_DLL,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtOpenGL&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include&quot;,&quot;include&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\ActiveQt&quot;,&quot;tmp&quot;,c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="tmp\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QWT3D_DLL,QWT3D_MAKEDLL,QT_THREAD_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="glu32.lib opengl32.lib gdi32.lib user32.lib c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib\QtOpenGL4.lib c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib\QtGui4.lib c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="lib\qwtplot3d.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QWT3D_DLL,QWT3D_MAKEDLL,QT_THREAD_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="3rdparty\gl2ps\gl2ps.c" />
+			<File
+				RelativePath="src\qwt3d_autoscaler.cpp" />
+			<File
+				RelativePath="src\qwt3d_axis.cpp" />
+			<File
+				RelativePath="src\qwt3d_color.cpp" />
+			<File
+				RelativePath="src\qwt3d_colorlegend.cpp" />
+			<File
+				RelativePath="src\qwt3d_coordsys.cpp" />
+			<File
+				RelativePath="src\qwt3d_drawable.cpp" />
+			<File
+				RelativePath="src\qwt3d_enrichment_std.cpp" />
+			<File
+				RelativePath="src\qwt3d_function.cpp" />
+			<File
+				RelativePath="src\qwt3d_gridmapping.cpp" />
+			<File
+				RelativePath="src\qwt3d_gridplot.cpp" />
+			<File
+				RelativePath="src\qwt3d_io.cpp" />
+			<File
+				RelativePath="src\qwt3d_io_gl2ps.cpp" />
+			<File
+				RelativePath="src\qwt3d_io_reader.cpp" />
+			<File
+				RelativePath="src\qwt3d_label.cpp" />
+			<File
+				RelativePath="src\qwt3d_lighting.cpp" />
+			<File
+				RelativePath="src\qwt3d_meshplot.cpp" />
+			<File
+				RelativePath="src\qwt3d_mousekeyboard.cpp" />
+			<File
+				RelativePath="src\qwt3d_movements.cpp" />
+			<File
+				RelativePath="src\qwt3d_parametricsurface.cpp" />
+			<File
+				RelativePath="src\qwt3d_plot.cpp" />
+			<File
+				RelativePath="src\qwt3d_scale.cpp" />
+			<File
+				RelativePath="src\qwt3d_surfaceplot.cpp" />
+			<File
+				RelativePath="src\qwt3d_types.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="3rdparty\gl2ps\gl2ps.h" />
+			<File
+				RelativePath="include\qwt3d_autoptr.h" />
+			<File
+				RelativePath="include\qwt3d_autoscaler.h" />
+			<File
+				RelativePath="include\qwt3d_axis.h" />
+			<File
+				RelativePath="include\qwt3d_color.h" />
+			<File
+				RelativePath="include\qwt3d_colorlegend.h" />
+			<File
+				RelativePath="include\qwt3d_coordsys.h" />
+			<File
+				RelativePath="include\qwt3d_drawable.h" />
+			<File
+				RelativePath="include\qwt3d_enrichment.h" />
+			<File
+				RelativePath="include\qwt3d_enrichment_std.h" />
+			<File
+				RelativePath="include\qwt3d_function.h" />
+			<File
+				RelativePath="include\qwt3d_global.h" />
+			<File
+				RelativePath="include\qwt3d_graphplot.h" />
+			<File
+				RelativePath="include\qwt3d_gridmapping.h" />
+			<File
+				RelativePath="include\qwt3d_helper.h" />
+			<File
+				RelativePath="include\qwt3d_io.h" />
+			<File
+				RelativePath="include\qwt3d_io_gl2ps.h" />
+			<File
+				RelativePath="include\qwt3d_io_reader.h" />
+			<File
+				RelativePath="include\qwt3d_label.h" />
+			<File
+				RelativePath="include\qwt3d_mapping.h" />
+			<File
+				RelativePath="include\qwt3d_multiplot.h" />
+			<File
+				RelativePath="include\qwt3d_openglhelper.h" />
+			<File
+				RelativePath="include\qwt3d_parametricsurface.h" />
+			<File
+				RelativePath="include\qwt3d_plot.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe;include\qwt3d_plot.h"
+						CommandLine="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQWT3D_DLL -DQWT3D_MAKEDLL -DQT_THREAD_SUPPORT -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtOpenGL&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include&quot; -I&quot;include&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\ActiveQt&quot; -I&quot;tmp&quot; -Ic:\QtSDK\Desktop\Qt\4.7.3\msvc2008\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 include\qwt3d_plot.h -o tmp\moc_qwt3d_plot.cpp"
+						Description="MOC include\qwt3d_plot.h"
+						Outputs="tmp\moc_qwt3d_plot.cpp"
+						Path="c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe;include\qwt3d_plot.h"
+						CommandLine="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQWT3D_DLL -DQWT3D_MAKEDLL -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtOpenGL&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include&quot; -I&quot;include&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\ActiveQt&quot; -I&quot;tmp&quot; -Ic:\QtSDK\Desktop\Qt\4.7.3\msvc2008\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 include\qwt3d_plot.h -o tmp\moc_qwt3d_plot.cpp"
+						Description="MOC include\qwt3d_plot.h"
+						Outputs="tmp\moc_qwt3d_plot.cpp"
+						Path="c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="include\qwt3d_portability.h" />
+			<File
+				RelativePath="include\qwt3d_scale.h" />
+			<File
+				RelativePath="include\qwt3d_surfaceplot.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe;include\qwt3d_surfaceplot.h"
+						CommandLine="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQWT3D_DLL -DQWT3D_MAKEDLL -DQT_THREAD_SUPPORT -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtOpenGL&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include&quot; -I&quot;include&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\ActiveQt&quot; -I&quot;tmp&quot; -Ic:\QtSDK\Desktop\Qt\4.7.3\msvc2008\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 include\qwt3d_surfaceplot.h -o tmp\moc_qwt3d_surfaceplot.cpp"
+						Description="MOC include\qwt3d_surfaceplot.h"
+						Outputs="tmp\moc_qwt3d_surfaceplot.cpp"
+						Path="c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe;include\qwt3d_surfaceplot.h"
+						CommandLine="C:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQWT3D_DLL -DQWT3D_MAKEDLL -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\QtOpenGL&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include&quot; -I&quot;include&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\include\ActiveQt&quot; -I&quot;tmp&quot; -Ic:\QtSDK\Desktop\Qt\4.7.3\msvc2008\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 include\qwt3d_surfaceplot.h -o tmp\moc_qwt3d_surfaceplot.cpp"
+						Description="MOC include\qwt3d_surfaceplot.h"
+						Outputs="tmp\moc_qwt3d_surfaceplot.cpp"
+						Path="c:\QtSDK\Desktop\Qt\4.7.3\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="include\qwt3d_types.h" />
+			<File
+				RelativePath="include\qwt3d_volumeplot.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc_qwt3d_plot.cpp" />
+			<File
+				RelativePath="tmp\moc_qwt3d_surfaceplot.cpp" />
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

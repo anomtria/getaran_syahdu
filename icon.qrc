@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/led_yellow.png</file>
+        <file>icon/led_red.png</file>
+        <file>icon/led_off.png</file>
+        <file>icon/led_green.png</file>
+        <file>icon/icon_waveform.png</file>
+        <file>icon/icon_trending.png</file>
+        <file>icon/icon_stop.png</file>
+        <file>icon/icon_statistic.png</file>
+        <file>icon/icon_spektrum.png</file>
+        <file>icon/icon_setting.png</file>
+        <file>icon/icon_server.png</file>
+        <file>icon/icon_report.png</file>
+        <file>icon/icon_replay.png</file>
+        <file>icon/icon_play.png</file>
+        <file>icon/icon_pause.png</file>
+        <file>icon/icon_note.png</file>
+        <file>icon/icon_new_db.png</file>
+        <file>icon/icon_log.png</file>
+        <file>icon/icon_kanal.png</file>
+        <file>icon/icon_generate.png</file>
+        <file>icon/icon_document.png</file>
+        <file>icon/icon_close.png</file>
+        <file>icon/icon_analysis.png</file>
+        <file>icon/icon_database.png</file>
+        <file>icon/icon_ok.png</file>
+    </qresource>
+</RCC>
