@@ -16,6 +16,7 @@
 #include <QMdiSubWindow>
 #include <QLayoutItem>
 #include <QElapsedTimer>
+#include <QProcess>
 #include <unistd.h>
 #include <math.h>
 
@@ -163,6 +164,7 @@ private slots:
 
     void on_actionNew_Database_triggered();
     void on_actionOpen_Database_triggered();
+    void on_actionModulConfigurator_triggered();
 
 private:
     struct t_setting *setting;

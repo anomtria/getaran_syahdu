@@ -720,6 +720,14 @@ void MainWindow::proses_fft(double *wave_y, int index)
     fft_magt[index][spektrum_points-1] = 0.00;
 }
 
+void MainWindow::on_actionModulConfigurator_triggered()
+{
+    QProcess *process = new QProcess(this);
+    QString program = "/home/rifqi/work/coding/software/setting_ciliwung/set_ciliwung3";
+
+    process->execute(program);
+}
+
 void MainWindow::on_actionExit_triggered()
 {
     this->close();

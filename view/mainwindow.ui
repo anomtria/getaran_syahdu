@@ -1380,6 +1380,8 @@
    <addaction name="actionLog"/>
    <addaction name="separator"/>
    <addaction name="actionReport"/>
+   <addaction name="separator"/>
+   <addaction name="actionModulConfigurator"/>
   </widget>
   <action name="actionRun">
    <property name="icon">
@@ -1460,6 +1462,14 @@
    </property>
    <property name="text">
     <string>Open Database</string>
+   </property>
+  </action>
+  <action name="actionModulConfigurator">
+   <property name="text">
+    <string>Modul Configurator</string>
+   </property>
+   <property name="toolTip">
+    <string>Modul Configurator</string>
    </property>
   </action>
  </widget>
